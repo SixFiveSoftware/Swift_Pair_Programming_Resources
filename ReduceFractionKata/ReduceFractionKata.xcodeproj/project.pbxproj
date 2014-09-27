@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B900CB719D7459700CFB8E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B900CB619D7459700CFB8E6 /* AppDelegate.swift */; };
+		3B900CB919D7459700CFB8E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B900CB819D7459700CFB8E6 /* ViewController.swift */; };
+		3B900CBC19D7459700CFB8E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B900CBA19D7459700CFB8E6 /* Main.storyboard */; };
+		3B900CBE19D7459700CFB8E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B900CBD19D7459700CFB8E6 /* Images.xcassets */; };
+		3B900CC119D7459700CFB8E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B900CBF19D7459700CFB8E6 /* LaunchScreen.xib */; };
+		3B900CCD19D7459700CFB8E6 /* ReduceFractionKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B900CCC19D7459700CFB8E6 /* ReduceFractionKataTests.swift */; };
+		3B900CD719D7478800CFB8E6 /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B900CD619D7478800CFB8E6 /* Fraction.swift */; };
+		3B900CD819D7478800CFB8E6 /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B900CD619D7478800CFB8E6 /* Fraction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B900CC719D7459700CFB8E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B900CA919D7459700CFB8E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B900CB019D7459700CFB8E6;
+			remoteInfo = ReduceFractionKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B900CB119D7459700CFB8E6 /* ReduceFractionKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReduceFractionKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B900CB519D7459700CFB8E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B900CB619D7459700CFB8E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B900CB819D7459700CFB8E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B900CBB19D7459700CFB8E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B900CBD19D7459700CFB8E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B900CC019D7459700CFB8E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3B900CC619D7459700CFB8E6 /* ReduceFractionKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReduceFractionKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B900CCB19D7459700CFB8E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B900CCC19D7459700CFB8E6 /* ReduceFractionKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceFractionKataTests.swift; sourceTree = "<group>"; };
+		3B900CD619D7478800CFB8E6 /* Fraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
+		3B900CD919D7565700CFB8E6 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B900CAE19D7459700CFB8E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B900CC319D7459700CFB8E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B900CA819D7459700CFB8E6 = {
+			isa = PBXGroup;
+			children = (
+				3B900CD919D7565700CFB8E6 /* MyPlayground.playground */,
+				3B900CB319D7459700CFB8E6 /* ReduceFractionKata */,
+				3B900CC919D7459700CFB8E6 /* ReduceFractionKataTests */,
+				3B900CB219D7459700CFB8E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B900CB219D7459700CFB8E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B900CB119D7459700CFB8E6 /* ReduceFractionKata.app */,
+				3B900CC619D7459700CFB8E6 /* ReduceFractionKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B900CB319D7459700CFB8E6 /* ReduceFractionKata */ = {
+			isa = PBXGroup;
+			children = (
+				3B900CB619D7459700CFB8E6 /* AppDelegate.swift */,
+				3B900CB819D7459700CFB8E6 /* ViewController.swift */,
+				3B900CD619D7478800CFB8E6 /* Fraction.swift */,
+				3B900CBA19D7459700CFB8E6 /* Main.storyboard */,
+				3B900CBD19D7459700CFB8E6 /* Images.xcassets */,
+				3B900CBF19D7459700CFB8E6 /* LaunchScreen.xib */,
+				3B900CB419D7459700CFB8E6 /* Supporting Files */,
+			);
+			path = ReduceFractionKata;
+			sourceTree = "<group>";
+		};
+		3B900CB419D7459700CFB8E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B900CB519D7459700CFB8E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B900CC919D7459700CFB8E6 /* ReduceFractionKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B900CCC19D7459700CFB8E6 /* ReduceFractionKataTests.swift */,
+				3B900CCA19D7459700CFB8E6 /* Supporting Files */,
+			);
+			path = ReduceFractionKataTests;
+			sourceTree = "<group>";
+		};
+		3B900CCA19D7459700CFB8E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B900CCB19D7459700CFB8E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B900CB019D7459700CFB8E6 /* ReduceFractionKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B900CD019D7459700CFB8E6 /* Build configuration list for PBXNativeTarget "ReduceFractionKata" */;
+			buildPhases = (
+				3B900CAD19D7459700CFB8E6 /* Sources */,
+				3B900CAE19D7459700CFB8E6 /* Frameworks */,
+				3B900CAF19D7459700CFB8E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReduceFractionKata;
+			productName = ReduceFractionKata;
+			productReference = 3B900CB119D7459700CFB8E6 /* ReduceFractionKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B900CC519D7459700CFB8E6 /* ReduceFractionKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B900CD319D7459800CFB8E6 /* Build configuration list for PBXNativeTarget "ReduceFractionKataTests" */;
+			buildPhases = (
+				3B900CC219D7459700CFB8E6 /* Sources */,
+				3B900CC319D7459700CFB8E6 /* Frameworks */,
+				3B900CC419D7459700CFB8E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B900CC819D7459700CFB8E6 /* PBXTargetDependency */,
+			);
+			name = ReduceFractionKataTests;
+			productName = ReduceFractionKataTests;
+			productReference = 3B900CC619D7459700CFB8E6 /* ReduceFractionKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B900CA919D7459700CFB8E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Six Five Software, LLC";
+				TargetAttributes = {
+					3B900CB019D7459700CFB8E6 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					3B900CC519D7459700CFB8E6 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 3B900CB019D7459700CFB8E6;
+					};
+				};
+			};
+			buildConfigurationList = 3B900CAC19D7459700CFB8E6 /* Build configuration list for PBXProject "ReduceFractionKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B900CA819D7459700CFB8E6;
+			productRefGroup = 3B900CB219D7459700CFB8E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B900CB019D7459700CFB8E6 /* ReduceFractionKata */,
+				3B900CC519D7459700CFB8E6 /* ReduceFractionKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B900CAF19D7459700CFB8E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B900CBC19D7459700CFB8E6 /* Main.storyboard in Resources */,
+				3B900CC119D7459700CFB8E6 /* LaunchScreen.xib in Resources */,
+				3B900CBE19D7459700CFB8E6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B900CC419D7459700CFB8E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B900CAD19D7459700CFB8E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B900CD719D7478800CFB8E6 /* Fraction.swift in Sources */,
+				3B900CB919D7459700CFB8E6 /* ViewController.swift in Sources */,
+				3B900CB719D7459700CFB8E6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B900CC219D7459700CFB8E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B900CCD19D7459700CFB8E6 /* ReduceFractionKataTests.swift in Sources */,
+				3B900CD819D7478800CFB8E6 /* Fraction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B900CC819D7459700CFB8E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B900CB019D7459700CFB8E6 /* ReduceFractionKata */;
+			targetProxy = 3B900CC719D7459700CFB8E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B900CBA19D7459700CFB8E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B900CBB19D7459700CFB8E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B900CBF19D7459700CFB8E6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B900CC019D7459700CFB8E6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B900CCE19D7459700CFB8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B900CCF19D7459700CFB8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B900CD119D7459700CFB8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReduceFractionKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B900CD219D7459700CFB8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReduceFractionKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B900CD419D7459800CFB8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReduceFractionKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReduceFractionKata.app/ReduceFractionKata";
+			};
+			name = Debug;
+		};
+		3B900CD519D7459800CFB8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReduceFractionKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReduceFractionKata.app/ReduceFractionKata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B900CAC19D7459700CFB8E6 /* Build configuration list for PBXProject "ReduceFractionKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B900CCE19D7459700CFB8E6 /* Debug */,
+				3B900CCF19D7459700CFB8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B900CD019D7459700CFB8E6 /* Build configuration list for PBXNativeTarget "ReduceFractionKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B900CD119D7459700CFB8E6 /* Debug */,
+				3B900CD219D7459700CFB8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B900CD319D7459800CFB8E6 /* Build configuration list for PBXNativeTarget "ReduceFractionKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B900CD419D7459800CFB8E6 /* Debug */,
+				3B900CD519D7459800CFB8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B900CA919D7459700CFB8E6 /* Project object */;
+}

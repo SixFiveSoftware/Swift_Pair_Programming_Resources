@@ -39,11 +39,8 @@ class AsyncTestsTests: XCTestCase {
     }
     
     override func tearDown() {
+        document = nil
         super.tearDown()
-    }
-    
-    func testExample() {
-        XCTAssert(true, "Pass")
     }
     
     func testPerformanceExample() {

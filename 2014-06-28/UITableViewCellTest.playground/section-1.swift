@@ -3,14 +3,14 @@
 import UIKit
 
 class DataSource: NSObject, UITableViewDataSource {
-    func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let row = indexPath.row
         let style = UITableViewCellStyle.fromRaw(row)
         
-        let cell = UITableViewCell(style: style ? style! : .Default, reuseIdentifier: nil)
+        let cell = UITableViewCell(style: style != nil ? style! : .Default, reuseIdentifier: nil)
         
-        cell.textLabel.text = "Hank"
+        cell.textLabel!.text = "Hank"
         
         if let detailTextLabel = cell.detailTextLabel {
             detailTextLabel.text = "Detail"
@@ -19,7 +19,7 @@ class DataSource: NSObject, UITableViewDataSource {
         return cell
     }
     
-    func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
     }
 }
